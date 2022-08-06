@@ -59,7 +59,7 @@ public class TwoPlayers {
 	
 	public void getDecision(int set) {
 		
-		if(set == 4) {
+		if(set == 3) {
 			if(playerPoints[0] > playerPoints[1]) {
 				System.out.println("\n\nCongratulations... "+playerNames[0]+", you won this game !!\n\n");
 			}else if(playerPoints[1] > playerPoints[0]) {
@@ -78,11 +78,11 @@ public class TwoPlayers {
 		
 		getPlayerNames();
 
-		while(set != 4) {
+		while(set != 3) {
 			
 			if(flag) {
 				System.out.println("\n\nHi "+playerNames[0]+" and "+playerNames[1]+", I am The Umpire");
-				System.out.println("Instruction : As you both have been participating in this game,\nI will give you 3 SETS to play.\nBased on the performance in each SET, I will declare the winner.");
+				System.out.println("Instruction : As you both have been participating in this game,\nI will give you 2 SETS to play.\nBased on the performance in each SET, I will declare the winner.");
 
 				getGuessedByComputer();
 
@@ -99,7 +99,7 @@ public class TwoPlayers {
 			
 			System.out.println("SET-"+set+" Results ="+"=> "+playerNames[0]+" : "+playerPoints[0]+" || "+playerNames[1]+" : "+playerPoints[1]);
 			
-			if(set != 3) {
+			if(set != 2) {
 				getGuessedByComputer();
 			}
 			
