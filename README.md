@@ -1,5 +1,4 @@
-<h1 align="center">Play with Computer</h1>
-<hr>
+<h1 align="center"><u>Play with Computer</u></h1>
 <h3>It is a game where " The Guesser ", will select a number from 1 to 100, player(s) are required to guess the same number.</h3>
 <h3>WhoSoEver guess' the number first will win this game.</h3>
 <h3>Really !!</h3>
